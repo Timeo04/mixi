@@ -1,0 +1,60 @@
+.table {
+    /* background-color: red; */
+    /* min-height: 100px; */
+    max-width: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.row {
+    /* background-color: blue; */
+    /* min-height: 10px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 1px 1px 15px #bebebe;
+}
+
+.icons > * {
+    margin: 0 10px; 
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: opacity .5s;
+    background: none;
+    border: none;
+}
+
+.icons > *:hover {
+    opacity: .6;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.addbutton > button {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 15px #bebebe;
+    border: none;
+    background-color: #282c34;
+    color: white;
+    transition: opacity .5s;
+}
+
+.addbutton > button:hover {
+    opacity: .6;
+}

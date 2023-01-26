@@ -1,0 +1,20 @@
+.slotscontainer {
+    display: flex;
+    max-width: 700px;
+    margin: 10px auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    gap: 15px;
+}
+
+.slot {
+    flex-basis: 150px;
+    color: white;
+    padding: 10px;
+    background-color: #282c34;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+}

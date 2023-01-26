@@ -1,0 +1,133 @@
+* {
+    --bg-color: rgb(0, 0, 0);
+    --accent-color: rgb(233,206,6);
+    --alt-accent-color: #B99E1E;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+body {
+    /* background-color: var(--bg-color); */
+    /* color:white; */
+    background-color: var(--bg-color);
+    
+}
+
+.right {
+    border-left: 2px solid white;
+}
+
+
+button {
+    display: flex;
+    text-align: center;
+
+    border-radius: 5px;
+    padding: 15px;
+    background-color: var(--alt-accent-color);
+    border: none;
+    cursor: pointer;
+}
+
+.preview {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+
+}
+
+.frontend-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.frontend-container>div {
+    flex-grow: 1;
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.left, .right {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.frontend-container .overview,
+.frontend-container .preview {
+    flex-grow: 1;
+}
+
+.frontend-container .settings {
+    padding: 5px;
+    background-color: black;
+    opacity: .7;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .5s;
+}
+
+.size {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.size button {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.size .active {
+    background-color: red;
+}
+
+.frontend-container .settings:hover {
+    opacity: .5;
+}
+
+.frontend-container .drink-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.frontend-container .drink-container .drink {
+    /* background-color: rgba(155, 155, 155, 0.5); */
+    background-color: var(--accent-color);
+    padding: 25px;
+    transition: opacity .5s;
+    border-radius: 15px;
+}
+
+.frontend-container .drink-container .drink.active {
+    background-color: rgb(217, 255, 0);
+}
+
+.frontend-container .drink-container .drink button {
+    /* background-color:rgb(0, 0, 0); */
+
+}
+
+.frontend-container .drink-container .drink:hover {
+    opacity: .7;
+}
+
+.touch {
+    height: 30vh;
+}
+

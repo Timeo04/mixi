@@ -1,0 +1,141 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+h1, h2, h3, h4 {
+  font-family: "Elegant Typewriter", "Another Typewriter", 'Times New Roman', Times, serif;
+}
+
+
+.admin-header {
+  font-family: "Elegant Typewriter", "Another Typewriter", 'Times New Roman', Times, serif;
+  background-color: #282c34;
+  /* min-height: 20vh; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.admin-header * {
+  font-family: "Elegant Typewriter", "Another Typewriter", 'Times New Roman', Times, serif;
+  
+}
+
+.admin-header nav {
+  display: flex;
+  gap: 8px;
+  width: 100%;;
+  justify-content: center;
+}
+
+.admin-header nav a {
+  color: white;
+  text-decoration: none;
+  transition: opacity .5s;
+  padding: 3px 5px ;
+  background-color: gray;
+  border-radius: 5px;
+
+}
+
+.admin-header nav a:hover {
+  opacity: .6;
+}
+
+.admin-header nav a.active, .admin-header nav a.active:hover {
+  /* font-variant: small-caps; */
+  /* text-transform: uppercase; */
+  /* opacity: .6; */
+  background-color: rgb(57, 57, 57);
+  opacity: 1;
+}
+
+.admin-header .burger {
+  background: black;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  border: none;
+  color: white;
+  font-size: 3em;
+  right: 0;
+  top: 0;
+}
+
+main.admin-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* gap: 10px; */
+  margin: 10px;
+}
+
+main.admin-content > * {
+  margin: 10px;
+}
+
+div.swatches-picker {
+  height: inherit !important;
+}
+
+div.swatches-picker > div > div > div{
+  height: inherit !important;
+}
+
+@media (max-width: 720px) {
+  .admin-header nav {
+    flex-flow: column nowrap;
+  }
+}
+
+@font-face {
+  font-family: "Another Typewriter";
+  src: url("atwriter.ttf");
+}
+
+@font-face {
+  font-family: "Elegant Typewriter";
+  src: url("ELEGANT TYPEWRITER Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Elegant Typewriter";
+  src: url("ELEGANT TYPEWRITER Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Elegant Typewriter";
+  src: url("ELEGANT TYPEWRITER Light.ttf");
+  font-weight: 300;
+}
