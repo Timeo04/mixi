@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0044d233.css",
-    "main.js": "/static/js/main.e13ddc59.js",
+    "main.css": "/static/css/main.4c41126c.css",
+    "main.js": "/static/js/main.9cb3d322.js",
     "static/media/ELEGANT TYPEWRITER Regular.ttf": "/static/media/ELEGANT TYPEWRITER Regular.e19a066e546a10da5e06.ttf",
     "static/media/ELEGANT TYPEWRITER Light.ttf": "/static/media/ELEGANT TYPEWRITER Light.577d339c4ee3e5f79f3e.ttf",
     "static/media/ELEGANT TYPEWRITER Bold.ttf": "/static/media/ELEGANT TYPEWRITER Bold.91cc062ff8f8622c1f03.ttf",
@@ -12,11 +12,11 @@
     "static/media/qrcode2.svg": "/static/media/qrcode2.4b4e8e3687531de5436801045ec06464.svg",
     "static/media/touch-svgrepo-com.svg": "/static/media/touch-svgrepo-com.ecf732a02cf44eec3f81e3d3826543fc.svg",
     "index.html": "/index.html",
-    "main.0044d233.css.map": "/static/css/main.0044d233.css.map",
-    "main.e13ddc59.js.map": "/static/js/main.e13ddc59.js.map"
+    "main.4c41126c.css.map": "/static/css/main.4c41126c.css.map",
+    "main.9cb3d322.js.map": "/static/js/main.9cb3d322.js.map"
   },
   "entrypoints": [
-    "static/css/main.0044d233.css",
-    "static/js/main.e13ddc59.js"
+    "static/css/main.4c41126c.css",
+    "static/js/main.9cb3d322.js"
   ]
 }
