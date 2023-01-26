@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0044d233.css",
+    "main.js": "/static/js/main.e13ddc59.js",
+    "static/media/ELEGANT TYPEWRITER Regular.ttf": "/static/media/ELEGANT TYPEWRITER Regular.e19a066e546a10da5e06.ttf",
+    "static/media/ELEGANT TYPEWRITER Light.ttf": "/static/media/ELEGANT TYPEWRITER Light.577d339c4ee3e5f79f3e.ttf",
+    "static/media/ELEGANT TYPEWRITER Bold.ttf": "/static/media/ELEGANT TYPEWRITER Bold.91cc062ff8f8622c1f03.ttf",
+    "static/media/meme.jpg": "/static/media/meme.b779bfe9c8ef938d0ac6.jpg",
+    "static/media/atwriter.ttf": "/static/media/atwriter.d10e01283d9fc306f6a3.ttf",
+    "static/media/logo.png": "/static/media/logo.ad4cdc546271bc6d76a6.png",
+    "static/media/qrcode.svg": "/static/media/qrcode.3105bc029081b463082660ed6967254b.svg",
+    "static/media/qrcode2.svg": "/static/media/qrcode2.4b4e8e3687531de5436801045ec06464.svg",
+    "static/media/touch-svgrepo-com.svg": "/static/media/touch-svgrepo-com.ecf732a02cf44eec3f81e3d3826543fc.svg",
+    "index.html": "/index.html",
+    "main.0044d233.css.map": "/static/css/main.0044d233.css.map",
+    "main.e13ddc59.js.map": "/static/js/main.e13ddc59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0044d233.css",
+    "static/js/main.e13ddc59.js"
+  ]
+}
